@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let isFriend = await inquirer.prompt([{
         name: "friendName",
